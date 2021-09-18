@@ -1,0 +1,28 @@
+.wrapper_center_block_media{
+    width: 75%;
+    height: 220px;
+    margin-left: 46px;
+    margin-top: 82px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.up_block_center_media{
+    display: flex;
+    font-size: 90px;
+}
+.under_block_center_media{
+    font-size: 18px;
+    font-weight: 600;
+    transform: translate(-5px, 13px);
+    letter-spacing: 1.1px;
+}
+.up_block_center_media p{
+    transform: translate(7px,5px);
+}
+.up_block_center_media img{
+    width: 100px;
+    transform: translateX(-2px);
+}

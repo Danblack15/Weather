@@ -1,0 +1,120 @@
+button{
+    background: none;
+    border: none;
+}
+.wrapper{
+    padding-top: 75px;
+    display: flex;
+    justify-content: space-between;
+}
+.wrapper_city{
+    width: 378px;
+    height: 95px;
+    margin-left: 99px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.wrapper_city p{
+    height: 60px;
+    color: white;
+    font-size: 50px;
+    line-height: 60px;
+    text-align: left;
+    font-weight: 600;
+    letter-spacing: 0.7px;
+    width: 500px;
+}
+.buttons_header{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.buttons_header button{
+    mix-blend-mode: normal;
+    opacity: 0.6;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+.buttons_header button:nth-child(1){
+    margin-left: 2px;
+    margin-bottom: 4px;
+    line-height: 22px;
+    width: 132px;
+    height: 22px;
+    letter-spacing: 0.6px;
+}
+.buttons_header button:nth-child(3){
+    margin-bottom: 4px;
+    width: 185px;
+    height: 22px;
+    letter-spacing: 0.2px;
+}
+.buttons_header img{
+    position: absolute;
+    right: 196.51px;
+    bottom: 4.16px;
+}
+.temperature{
+    width: 94px;
+    height: 29px;
+    margin-top: 6px;
+    margin-right: 75px;
+    display: flex;
+    justify-content: space-between;
+}
+.temperature img{
+    width: 6px;
+    height: 22px;
+    margin-bottom: 3px;
+}
+.wrap_deg{
+    width: 77px;
+    height: 29px;
+    mix-blend-mode: normal;  
+    border-radius: 8px;
+    display: flex;
+}
+.wrap_icon{
+    display: flex;
+    width: 100%;
+}
+.wrap_icon Button{
+    cursor: pointer;
+    box-sizing: border-box;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17.5px;
+    mix-blend-mode: normal;
+    font-weight: 600;
+}
+.wrap_icon Button:nth-child(1){
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-top: 1px solid #fff6;
+    border-bottom: 1px solid #fff6;
+    border-left: 1px solid #fff6;
+    color: white;
+    background-color: #fff3;
+}
+.wrap_icon Button:nth-child(2){
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top: 1px solid #fff6;
+    border-bottom: 1px solid #fff6;
+    border-right: 1px solid #fff6;
+    color: #fff6;
+    background-color: none;
+}
+
+@media (max-width: 415px){
+    .wrapper{
+        padding-top: 19px;
+        width: 100%;
+        justify-content: space-between;   
+    }
+}

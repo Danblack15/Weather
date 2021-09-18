@@ -1,0 +1,36 @@
+.wrapper_under_block{
+    width: 1081px;
+    height: 62px;
+    margin-top: 218px;
+    margin-left: 101px;
+    display: flex;
+}
+.wrapper_under_block div{
+    display: inline-flex;
+    flex-direction: column;
+    text-align: left;
+    font-weight: 600;
+}
+.wrapper_under_block div p:nth-child(1){
+    color: white;
+    opacity: 0.6;
+    mix-blend-mode: normal;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+}
+.wrapper_under_block div p:nth-child(2){
+    font-size: 25px;
+    line-height: 30px;
+    color: white;
+    margin-top: 10px;
+}
+.pressure{
+    margin-left: 130px;
+}
+.humidity{
+    margin-left: 159px;
+}
+.rain{
+    margin-left: 193px;
+}

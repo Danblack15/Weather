@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'Lato';
+    src: local('Lato Regular'), local('Lato-Regular'), url('../Fonts/lato/latolight.woff2') format('woff2'), url('../Fonts/lato/latoregular.woff') format('woff'), url('../Fonts/lato/latoregular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+*{
+    font-family: 'Lato';
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper_weather{
+    width: 1366px;
+    height: 1024px;
+    background-color: #498CEC;
+    margin: 0 auto;
+    position: relative;
+}
+.modal{
+    width: 579px;
+    height: 97px;
+    background-color: white;
+    color: black;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    position: absolute;
+    top: 81px;
+    left: 96px;
+    display: none;
+}
+.select_city{
+    width: 517px;
+    margin-left: 32px;
+    margin-top: 31px;
+}
+.select_city form{
+    display: flex;
+    justify-content: space-between;
+}
+.input{
+    width: 408px;
+    height: 36px;
+    font-size: 30px;
+    font-weight: 600;
+    border: none;
+    outline: none;
+}
+.close_modal{
+    color:#1086FF;
+    font-size: 30px;
+    cursor: pointer;
+    font-weight: 600;
+    line-height: 36px;
+    background: none;
+    border: none;
+    transform: translateX(-1.5px) translateY(1px);
+}
+#city_item{
+    background-color: white;
+    color: black;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    border-radius: 8px;
+    margin-top: 20px;
+    padding: 5px;
+    cursor: pointer;
+    display: none;
+}
+#city_item:hover{
+    font-weight: 600;
+}
+
+@media (max-width: 415px){
+    .wrapper_weather{
+        width: 100vw;
+        height: 100vh;
+        background: #7290B9;
+    }
+}

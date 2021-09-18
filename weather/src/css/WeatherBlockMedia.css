@@ -1,0 +1,117 @@
+.wrapper_media{
+    height: 78px;
+    width: 87%;
+    margin-left: 19px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    position: relative;
+}
+.city_name_modal{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: left;
+}
+.left_block_modal{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.right_block_modal{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.openModalBtn{
+    margin-bottom: 6px;
+    margin-left: 2px;
+    color: white;
+    opacity: 0.6;
+    letter-spacing: 1px;
+}
+.temperature_media{
+    width: 94px;
+    height: 29px;
+    margin-right: 13px;
+    margin-top: 7px;
+    display: flex;
+    justify-content: space-between;
+}
+.temperature_media img{
+    width: 6px;
+    height: 22px;
+    margin-bottom: 3px;
+}
+.my_geo_click{
+    margin-bottom: 6px;
+    color: white;
+    opacity: 0.6;
+    margin-right: 6px;
+    letter-spacing: 1px;
+}
+.str_geo{
+    position: absolute;
+    right: 168px;
+    bottom: 4%;
+}
+.modal_media{
+    width: 92%;
+    height: 53px;
+    background-color: white;
+    color: black;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    position: absolute;
+    top: 27px;
+    left: 21px;
+    display: none;
+}
+.input_media{
+    width: 80%;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    margin-left: 18px;
+}
+.select_city_media{
+    margin-top: 8px;
+}
+.select_city_media form{
+    display: flex;
+    justify-content: space-between;
+}
+.close_modal_media{
+    color:#1086FF;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: 600;
+    line-height: 36px;
+    background: none;
+    border: none;
+    display: inline;
+    margin-right: 17px;
+}
+#city_item_modal{
+    background-color: white;
+    color: black;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    border-radius: 8px;
+    margin-top: 20px;
+    padding: 5px;
+    cursor: pointer;
+    display: none;
+}
+@media (max-width: 320px){
+    .str_geo{
+        right: -10px;
+        width: 12px;
+        bottom: 9%;
+    }
+}
