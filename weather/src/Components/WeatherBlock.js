@@ -88,6 +88,7 @@ export default class WeatherBlock extends Component {
                 .then(
                     (result) => {
                         if (result.wind) {
+                            this.cel();
                             this.winddeg(result.wind.deg);//WIND DEG ('north','south'..)
                             this.setState({
                                 isLoaded: true,
