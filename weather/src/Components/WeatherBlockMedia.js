@@ -137,7 +137,6 @@ export default class WeatherBlockMedia extends Component {
                 .then(res => res.json())
                 .then(
                     (result) => {
-                        console.log(result);
                         if (result.wind) {
                             this.cel();
                             this.winddeg(result.wind.deg);//WIND DEG ('north','south'..)
